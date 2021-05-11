@@ -100,3 +100,6 @@ fabric.properties
 # Exclude database configuration file
 src/main/resources/database.properties
 
+# Exclude some IDEA files
+target/classes/*.*
+target/generated-sources/*.*
