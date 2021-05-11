@@ -27,28 +27,54 @@ public class UserInterface {
     }
 
     public char choice(String options) {
-        // Given string options -> "abcd"
-        // keep asking user for input until one of provided chars is provided
-        throw new RuntimeException("Implement me!");
+        String line;
+        do {
+            out.print("Choice [" + options + "]: ");
+            line = scanner.nextLine();
+        } while (!(line.length() == 1 && options.contains(line)));
+        return line.charAt(0);
+    }
+
+    private void printPrompt(String prompt, Object defaultValue) {
+        System.out.print(prompt + " [" + defaultValue + "]: ");
     }
 
     public String readString(String prompt, String defaultValue) {
-        // Ask user for data. If no data was provided use default value.
-        // User must be informed what the default value is.
-        throw new RuntimeException("Implement me!");
+        printPrompt(prompt, defaultValue);
+        String line = scanner.nextLine();
+        return line.isEmpty() ? defaultValue : line;
     }
 
     public Date readDate(String prompt, Date defaultValue) {
-        // Ask user for a date. If no data was provided use default value.
-        // User must be informed what the default value is.
-        // If provided date is in invalid format, ask user again.
-        throw new RuntimeException("Implement me!");
+        while (true) {
+            printPrompt(prompt, defaultValue);
+            String line = scanner.nextLine();
+
+            if (line.isEmpty()) {
+                return defaultValue;
+            }
+
+            try {
+                return Date.valueOf(line);
+            } catch (IllegalArgumentException e) {
+                out.println("Bad date format!");
+            }
+        }
     }
 
     public int readInt(String prompt, int defaultValue) {
-        // Ask user for a number. If no data was provided use default value.
-        // User must be informed what the default value is.
-        throw new RuntimeException("Implement me!");
-    }
+        while (true) {
+            printPrompt(prompt, defaultValue);
+            String line = scanner.nextLine();
 
+            if (line.isEmpty())
+                return defaultValue;
+
+            try {
+                return Integer.valueOf(line);
+            } catch (IllegalArgumentException e) {
+                out.println("Enter an integer!");
+            }
+        }
+    }
 }

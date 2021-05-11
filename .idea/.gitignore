@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\DOCUMENTS\WORK\CodeCool\2021-05-12 - October Java 2020\_tmp\book-db-java-sswietoniowski-development\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
