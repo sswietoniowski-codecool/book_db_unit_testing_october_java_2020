@@ -17,19 +17,19 @@ public class BookManager extends Manager {
     }
 
     @Override
-    public String getName() {
+    protected String getName() {
         return "Book Manager";
     }
 
     @Override
-    public void list() {
+    protected void list() {
         for (Book book : bookDao.getAll()) {
             ui.println(book);
         }
     }
 
     @Override
-    public void add() {
+    protected void add() {
         ui.println("Authors:");
         for (Author author : authorDao.getAll()) {
             ui.println(author);
@@ -49,7 +49,7 @@ public class BookManager extends Manager {
     }
 
     @Override
-    public void edit() {
+    protected void edit() {
         int bookId = ui.readInt("Book ID", 0);
 
         Book book = bookDao.get(bookId);

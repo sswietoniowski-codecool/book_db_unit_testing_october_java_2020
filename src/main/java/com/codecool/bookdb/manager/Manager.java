@@ -36,8 +36,8 @@ public abstract class Manager {
         }
     }
 
-    public abstract String getName();
-    public abstract void list();
-    public abstract void add();
-    public abstract void edit();
+    protected abstract String getName();
+    protected abstract void list();
+    protected abstract void add();
+    protected abstract void edit();
 }

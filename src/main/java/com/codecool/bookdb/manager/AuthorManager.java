@@ -15,19 +15,19 @@ public class AuthorManager extends Manager {
     }
 
     @Override
-    public String getName() {
+    protected String getName() {
         return "Author Manager";
     }
 
     @Override
-    public void list() {
+    protected void list() {
         for (Author author : authorDao.getAll()) {
             ui.println(author);
         }
     }
 
     @Override
-    public void add() {
+    protected void add() {
         String firstName = ui.readString("First name", "X");
         String lastName = ui.readString("Last name", "X");
         Date birthDate = ui.readDate("Birth date", Date.valueOf("1900-01-01"));
@@ -36,7 +36,7 @@ public class AuthorManager extends Manager {
     }
 
     @Override
-    public void edit() {
+    protected void edit() {
         int id = ui.readInt("Author ID", 0);
         Author author = authorDao.get(id);
 
