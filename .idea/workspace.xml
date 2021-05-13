@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7305cfc0-d125-4011-9478-129459f9c179" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codecool/bookdb/manager/AuthorManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codecool/bookdb/manager/AuthorManagerTestUsingInjections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codecool/bookdb/model/AuthorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codecool/bookdb/model/BookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookdb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bookdb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/manager/AuthorManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/manager/AuthorManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/bookdb/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/bookdb/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/bookdb/manager/AuthorManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/bookdb/manager/AuthorManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/bookdb/manager/BookManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/bookdb/manager/BookManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/bookdb/manager/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/bookdb/manager/Manager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -43,14 +55,97 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codecool.bookdb.Main" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.codecool.bookdb.manager" />
+      <recent name="com.codecool.bookdb.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.com.codecool.bookdb in bookdb">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthorManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookdb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codecool.bookdb.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codecool.bookdb.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.codecool.bookdb.manager.AuthorManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthorManagerTestUsingInjections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookdb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codecool.bookdb.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codecool.bookdb.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.codecool.bookdb.manager.AuthorManagerTestUsingInjections" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookdb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codecool.bookdb.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codecool.bookdb.model" />
+      <option name="MAIN_CLASS_NAME" value="com.codecool.bookdb.model.AuthorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookdb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codecool.bookdb.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codecool.bookdb.model" />
+      <option name="MAIN_CLASS_NAME" value="com.codecool.bookdb.model.BookTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.codecool.bookdb in bookdb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bookdb" />
       <extension name="coverage">
         <pattern>
@@ -58,30 +153,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.codecool.bookdb" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="books.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/books.sql" />
-      <script-mode>FILE</script-mode>
-      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Database Script.books.sql" />
+        <item itemvalue="JUnit.com.codecool.bookdb in bookdb" />
+        <item itemvalue="JUnit.AuthorManagerTestUsingInjections" />
+        <item itemvalue="JUnit.AuthorManagerTest" />
+        <item itemvalue="JUnit.BookTest" />
+        <item itemvalue="JUnit.AuthorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -105,6 +189,8 @@
       <workItem from="1620810168230" duration="271000" />
       <workItem from="1620829041921" duration="139000" />
       <workItem from="1620834659126" duration="4163000" />
+      <workItem from="1620886557476" duration="237000" />
+      <workItem from="1620922672486" duration="4171000" />
     </task>
     <task id="LOCAL-00001" summary="Fixes added.">
       <created>1620810308943</created>
@@ -134,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620829152906</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Starter project.">
+      <created>1620886603923</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620886603923</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +250,7 @@
       <path value="$PROJECT_DIR$/../../../.." />
     </ignored-roots>
     <MESSAGE value="Fixes added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixes added." />
+    <MESSAGE value="Starter project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Starter project." />
   </component>
 </project>

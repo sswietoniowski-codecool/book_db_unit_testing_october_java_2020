@@ -4,6 +4,7 @@ import com.codecool.bookdb.model.Author;
 import com.codecool.bookdb.model.AuthorDao;
 import com.codecool.bookdb.view.UserInterface;
 
+
 import java.sql.Date;
 
 public class AuthorManager extends Manager {
